@@ -1,0 +1,29 @@
+{
+    "Info": {
+        "ros": "foxy",
+        "platform": [
+            "ROScube-I",
+            "ROScube-X",
+            "ROScube-starterkit"
+        ]
+    },
+    "Dependency": {
+        "cmd": [
+            "vcs import src < neuron-app.repos",
+            "rosdep update",
+            "rosdep install --from-paths src --ignore-src -r -y --rosdistro foxy"
+        ]
+    },
+    "Run": {
+        "cmd": {
+            "gazebo": "ros2 launch napp_slam gazebo_slam.launch.py",
+            "neuronbot": "ros2 launch napp_slam neuronbot_slam.launch.py",
+            "teleop": "ros2 run teleop_twist_keyboard teleop_twist_keyboard",
+            "save_map": "ros2 run nav2_map_server map_saver_cli -f yourmap"
+        }
+    },
+    "Environment": {
+        "hook": [
+        ]
+    }
+}
