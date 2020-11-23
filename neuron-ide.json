@@ -19,7 +19,7 @@
             "gazebo": "ros2 launch napp_slam gazebo_slam.launch.py",
             "neuronbot": "ros2 launch napp_slam neuronbot_slam.launch.py",
             "teleop": "ros2 run teleop_twist_keyboard teleop_twist_keyboard",
-            "save_map": "ros2 run nav2_map_server map_saver_cli -f yourmap --ros-args -p save_map_timeout:=10000"
+            "save_map": "ros2 launch napp_slam map_saver_cli.launch.py"
         }
     },
     "Environment": {
