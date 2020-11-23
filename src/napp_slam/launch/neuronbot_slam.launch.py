@@ -16,7 +16,7 @@ def generate_launch_description():
 
     neuron_app_bringup = GroupAction([
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(os.path.join(nb2_launch_dir, 'bringup.launch.py'))),
+            PythonLaunchDescriptionSource(os.path.join(nb2_launch_dir, 'bringup_launch.py'))),
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(os.path.join(nb2nav_launch_dir, 'gmapping_launch.py')),
