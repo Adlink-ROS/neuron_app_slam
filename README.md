@@ -10,22 +10,17 @@
   - ROS 2 foxy
 
 # Usage
-1. Launch SLAM as well as Rviz while the Gazebo simulation is running.
+1. Launch SLAM as well as Rviz 
    
-   ***We provide three slam methods.***
-
-   * Gmapping
+   * For simulation, launch while the Gazebo simulation is running.
    ```
-   ros2 launch neuronbot2_slam gmapping_launch.py open_rviz:=true use_sim_time:=true
+   ros2 launch napp_slam gazebo_slam.launch.py
    ```
-   * Slam_toolbox
-   ``` 
-   ros2 launch neuronbot2_slam slam_toolbox_launch.py open_rviz:=true use_sim_time:=true
+   * For Neuronbot2
    ```
-   * Cartographer
+   ros2 launch napp_slam neuronbot_slam.launch.py
    ```
-   ros2 launch neuronbot2_slam cartographer_launch.py open_rviz:=true use_sim_time:=true
-   ```
+   
     ![](readme_resource/slam_rviz.png)
 2. Teleop NeuronBot2 to explore the world
    ```
@@ -37,7 +32,7 @@
 3. Save the map
    ```
    source /opt/ros/foxy/setup.bash 
-   ros2 run nav2_map_server map_saver_cli -f <map_dir>/<map_name>
+   ros2 launch napp_slam map_saver_cli.launch.py
    ```
 
    Then, you shall turn off SLAM.
