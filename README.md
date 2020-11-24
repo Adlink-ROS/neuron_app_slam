@@ -31,7 +31,7 @@
    ```
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
    ```
-     ![](readme_resource/slam_teleop_8x.gif)
+   ![](readme_resource/slam_teleop_8x.gif)
 3-3. Save the map
    ```
    ros2 launch napp_slam map_saver_cli.launch.py
