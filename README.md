@@ -23,15 +23,15 @@
 
    ![](readme_resource/launch_slam.png)
      
-3-1. Launch SLAM and Rviz 
+3. Launch SLAM and Rviz 
    
-   For simulation, launch SLAM application and Gazebo simultaneously. Launch gazebo_slam.launch.py
+     For simulation, launch SLAM application and Gazebo simultaneously. Launch gazebo_slam.launch.py
 
-3-2. Teleop NeuronBot2 to explore the world, run teleop_twist_keyboard
+4. Teleop NeuronBot2 to explore the world, run teleop_twist_keyboard
 
    ![](readme_resource/slam_teleop_8x.gif)
    
-3-3. Save the map,Launch map_saver_cli.launch.py
+5. Save the map,Launch map_saver_cli.launch.py
 
    The saved map will be stored in directory of neuron_app_slam, which is "yourmap.yaml" and "yourmap.pgm".
 
