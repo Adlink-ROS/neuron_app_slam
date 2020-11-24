@@ -14,6 +14,7 @@
    ![](readme_resource/open_app.png)
    
 2-1. Click "packages" on the right side.
+
 2-2. Open list by click "resources" -> "user-workspace" -> "napp_slam"
    ![](readme_resource/click_resourse_slam.png)
 1. Launch SLAM and Rviz 
