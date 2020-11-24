@@ -9,7 +9,7 @@ def generate_launch_description():
         package='nav2_map_server',
         executable='map_saver_cli',
         parameters=[{'save_map_timeout': 10000}],
-        arguments=['-f', 'yourmap'],
+        arguments=['-f', '$HOME/neuron_app_slam/yourmap'],
         output='screen'
     )
 
