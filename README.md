@@ -19,7 +19,8 @@
      ![](readme_resource/click_resourse_slam.png)
      
 3. Right click desired launch file and click "Run" -> "Run Launch File"
-
+     ![](readme_resource/launch_slam.png)
+     
 3-1. Launch SLAM and Rviz 
    
    * For simulation, launch SLAM application and Gazebo simultaneously.
