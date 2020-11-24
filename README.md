@@ -19,7 +19,7 @@
      ![](readme_resource/click_resourse_slam.png)
      
 
-***NOTE!!!    Right click desired launch file and click "Run" -> "Run Launch File" as image bellow***
+**NOTE!!!    Right click desired launch file and click "Run" -> "Run Launch File" as image bellow**
 
    ![](readme_resource/launch_slam.png)
      
