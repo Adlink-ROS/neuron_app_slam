@@ -30,6 +30,7 @@
 3-2. Teleop NeuronBot2 to explore the world, run teleop_twist_keyboard
 
    ![](readme_resource/slam_teleop_8x.gif)
+   
 3-3. Save the map,Launch map_saver_cli.launch.py
 
    The saved map will be stored in directory of neuron_app_slam, which is "yourmap.yaml" and "yourmap.pgm".
