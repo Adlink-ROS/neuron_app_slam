@@ -32,4 +32,6 @@
    ![](readme_resource/slam_teleop_8x.gif)
 3-3. Save the map,Launch map_saver_cli.launch.py
 
+   The saved map will be stored in directory of neuron_app_slam, which is "yourmap.yaml" and "yourmap.pgm".
+
    Then, you shall turn off SLAM.
