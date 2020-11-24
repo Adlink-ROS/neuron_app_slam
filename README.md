@@ -10,9 +10,9 @@
   - ROS 2 foxy
 
 # Usage
-1. Launch SLAM as well as Rviz 
+1. Launch SLAM and Rviz 
    
-   * For simulation, launch while the Gazebo simulation is running.
+   * For simulation, launch SLAM application and Gazebo simultaneously.
    ```
    ros2 launch napp_slam gazebo_slam.launch.py
    ```
