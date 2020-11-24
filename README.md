@@ -11,7 +11,7 @@
 
 # Usage
 1. Click application in Neuron App to open workspace. It will build the resource at first time it's opened.
-   ![](readme_resource/open_app.png)
+     ![](readme_resource/open_app.png)
    
 2-1. Click "packages" on the right side.
 
@@ -31,7 +31,7 @@
    ```
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
    ```
-   ![](readme_resource/slam_teleop_8x.gif)
+     ![](readme_resource/slam_teleop_8x.gif)
 3-3. Save the map
    ```
    ros2 launch napp_slam map_saver_cli.launch.py
