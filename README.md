@@ -16,10 +16,6 @@
    ```
    ros2 launch napp_slam gazebo_slam.launch.py
    ```
-   * For Neuronbot2
-   ```
-   ros2 launch napp_slam neuronbot_slam.launch.py
-   ```
    
     ![](readme_resource/slam_rviz.png)
 2. Teleop NeuronBot2 to explore the world
