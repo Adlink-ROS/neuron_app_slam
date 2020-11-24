@@ -2,6 +2,7 @@ import os
 
 from launch import LaunchDescription
 from launch_ros.actions.node import Node
+from pathlib import Path
 
 def generate_launch_description():
 
@@ -9,7 +10,7 @@ def generate_launch_description():
         package='nav2_map_server',
         executable='map_saver_cli',
         parameters=[{'save_map_timeout': 10000}],
-        arguments=['-f', '$HOME/neuron_app_slam/yourmap'],
+        arguments=['-f', str(Path.home())+'/neuron_app_slam/yourmap'],
         output='screen'
     )
 
