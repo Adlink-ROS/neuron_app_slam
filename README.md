@@ -19,7 +19,7 @@
      ![](readme_resource/click_resourse_slam.png)
      
 
-### NOTE!!!   Right click desired launch file and click "Run" -> "Run Launch File"
+### NOTE!!!    Right click desired launch file and click "Run" -> "Run Launch File" as image bellow
 
    ![](readme_resource/launch_slam.png)
      
@@ -27,14 +27,9 @@
    
    For simulation, launch SLAM application and Gazebo simultaneously. Launch gazebo_slam.launch.py
 
-3-2. Teleop NeuronBot2 to explore the world
-   ```
-   ros2 run teleop_twist_keyboard teleop_twist_keyboard
-   ```
+3-2. Teleop NeuronBot2 to explore the world, run teleop_twist_keyboard
+
    ![](readme_resource/slam_teleop_8x.gif)
-3-3. Save the map
-   ```
-   ros2 launch napp_slam map_saver_cli.launch.py
-   ```
+3-3. Save the map,Launch map_saver_cli.launch.py
 
    Then, you shall turn off SLAM.
