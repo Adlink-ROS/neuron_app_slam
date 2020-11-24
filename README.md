@@ -18,7 +18,7 @@
 2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_slam"
      ![](readme_resource/click_resourse_slam.png)
 
-###NOTE!!!    
+### NOTE!!!    
 Right click desired launch file and click "Run" -> "Run Launch File"
      ![](readme_resource/launch_slam.png)
      
