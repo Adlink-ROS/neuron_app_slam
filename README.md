@@ -17,16 +17,15 @@
 
 2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_slam"
      ![](readme_resource/click_resourse_slam.png)
-     
-3. Right click desired launch file and click "Run" -> "Run Launch File"
+
+*NOTE!!!*     
+Right click desired launch file and click "Run" -> "Run Launch File"
      ![](readme_resource/launch_slam.png)
      
 3-1. Launch SLAM and Rviz 
    
-   * For simulation, launch SLAM application and Gazebo simultaneously.
-   ```
-   ros2 launch napp_slam gazebo_slam.launch.py
-   ```
+   For simulation, launch SLAM application and Gazebo simultaneously. Launch gazebo_slam.launch.py
+
 3-2. Teleop NeuronBot2 to explore the world
    ```
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
