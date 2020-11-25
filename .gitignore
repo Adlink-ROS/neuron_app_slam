@@ -1,5 +1,8 @@
 build
 install
 log
+.*.swp
+src/*
+!src/napp_*
 *.yaml
 *.pgm
