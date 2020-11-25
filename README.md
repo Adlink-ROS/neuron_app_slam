@@ -32,11 +32,11 @@
      
      * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
-   Teleop NeuronBot2 to explore the world, click and drag on the mouse teleop.
+4. Teleop NeuronBot2 to explore the world, click and drag on the mouse teleop.
    
    ![](readme_resource/mouse_slam.gif)
    
-4. Save the map, **Launch map_saver_cli.launch.py**
+5. Save the map, **Launch map_saver_cli.launch.py**
 
    The saved map will be stored in directory of neuron_app_slam, which is "yourmap.yaml" and "yourmap.pgm".
 
