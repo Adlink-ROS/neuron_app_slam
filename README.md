@@ -10,6 +10,9 @@
   - ROS 2 foxy
 
 # Usage
+
+## Quickstart
+
 1. Click application in Neuron App to open workspace. **Click SLAM.**  It will build the resource at first time it's opened.
      ![](readme_resource/open_app.png)
    
@@ -23,9 +26,11 @@
 
    ![](readme_resource/launch_slam.png)
      
-3. Launch SLAM and Rviz 
+3. Launch SLAM and Rviz, choose **ONE**  file to launch: 
    
-     For simulation, launch SLAM application and Gazebo simultaneously. **Launch gazebo_slam.launch.py**
+     * For simulation, launch SLAM application and Gazebo simultaneously: **Launch gazebo_slam.launch.py**
+     
+     * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
 
 4. Teleop NeuronBot2 to explore the world, **Run teleop_twist_keyboard**
 
