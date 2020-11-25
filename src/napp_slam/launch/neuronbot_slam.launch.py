@@ -23,6 +23,15 @@ def generate_launch_description():
             launch_arguments={'open_rviz': open_rviz}.items()),
     ])
 
+    # Run mouse teleop
+    mouse_teleop = Node(
+        package='mouse_teleop',
+        executable='mouse_teleop',
+        remappings=[('mouse_vel', 'cmd_vel')],
+        output='screen'
+    )
+
     ld = LaunchDescription()
     ld.add_action(neuron_app_bringup)
+    ld.add_action(mouse_teleop)
     return ld
