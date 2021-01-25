@@ -2,6 +2,8 @@ build
 install
 log
 .*.swp
+.theia
+.cache
 src/*
 !src/napp_*
 *.yaml
