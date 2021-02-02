@@ -8,3 +8,4 @@ src/*
 !src/napp_*
 *.yaml
 *.pgm
+__pycache__
