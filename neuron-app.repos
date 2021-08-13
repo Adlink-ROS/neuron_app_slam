@@ -2,7 +2,7 @@ repositories:
   neuronbot2:
     type: git
     url: https://github.com/Adlink-ROS/neuronbot2.git
-    version: a1d6eb7403377eeea19eb99d8b6bd06d3b39b4ed
+    version: f5592ef4c3467f23aff926b910ab793375ccfed5
   rplidar_ros:
     type: git
     url: https://github.com/Adlink-ROS/rplidar_ros.git
